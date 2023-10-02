@@ -9,6 +9,7 @@ fun Application.configureRouting() {
     routing {
         customerRouting()
         orderRouting()
+        totalizeOrderRoute()
     }
 }
 
